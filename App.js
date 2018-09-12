@@ -16,6 +16,10 @@ export default class App extends React.Component {
                     ref={component => this._textInput = component}
                     style={{height: 50, flex: 1, marginHorizontal: 20, borderWidth: 1, borderColor: '#ccc'}}
                 />
+                {/*<TextInput*/}
+                    {/*ref={component => this._textInput = component}*/}
+                    {/*style={{height: 50, flex: 1, marginHorizontal: 20, borderWidth: 1, borderColor: '#ccc'}}*/}
+                {/*/>*/}
                 <TouchableOpacity onPress={this.clearText}>
                     <Text>Clear text</Text>
                 </TouchableOpacity>
